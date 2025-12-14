@@ -11,11 +11,11 @@ export default function Home() {
     <>
       <Snow />
 
-      <div className="flex p-4 h-screen overflow-hidden items-center justify-center bg-red-700 dark:bg-black ">
+      <div className="flex p-4 h-screen overflow-hidden items-center justify-center bg-red-700 ">
         <div className="h-80 w-80 fixed top-[50%] left-[50%]  -translate-x-1/2 -translate-y-1/2 flex items-center justify-center py-5">
           <Image className="" src="/images/McDonald's-logo.svg" alt="맥도날드로고" width={320} height={320} />
         </div>
-        <div className="w-[calc(100vw-2rem)] text-white max-w-[600px] text-center z-1">
+        <div className="w-[calc(100vw-2rem)] text-white text-center z-1">
           {!join && (
             <div className="w-full break-keep absolute top-[50%] left-[50%]  -translate-x-1/2 -translate-y-1/2  h-full flex flex-col items-center justify-center">
               <h1
