@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Info() {
   return (
     <div
-      className="w-[calc(100vw-2rem)] max-w-2xl h-114
-                 backdrop-blur-md bg-pink-200/30
+      className="w-[calc(100vw-2rem)] max-w-2xl min-h-114
+                 backdrop-blur-md bg-neutral-200/15
                  shadow-2xl/30 rounded-3xl
                  p-5 sm:p-6
                  text-start"
@@ -16,7 +16,6 @@ export default function Info() {
         rel="noopener noreferrer"
         className="cursor-pointer flex flex-col items-center justify-center overflow-hidden rounded-2xl"
       >
-        {/* 장소 제목 */}
         <p
           className="w-full text-white font-bold flex items-center gap-2 py-2
                       text-xl leading-tight"
@@ -25,7 +24,6 @@ export default function Info() {
           오합집
         </p>
 
-        {/* 이미지 */}
         <div className="rounded-2xl overflow-hidden w-full">
           <Image
             src="/images/food.jpg"
