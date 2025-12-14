@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Info() {
   return (
     <div
-      className="w-[calc(100vw-2rem)] max-w-2xl 
+      className="w-[calc(100vw-2rem)] max-w-2xl h-114
                  backdrop-blur-md bg-pink-200/30
                  shadow-2xl/30 rounded-3xl
                  p-5 sm:p-6
