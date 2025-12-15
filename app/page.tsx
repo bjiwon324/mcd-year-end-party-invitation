@@ -19,7 +19,7 @@ export default function Home() {
           {!join && (
             <div className="w-full break-keep absolute top-[50%] left-[50%]  -translate-x-1/2 -translate-y-1/2  h-full flex flex-col items-center justify-center">
               <h1
-                className="text-shadow-lg text-center text-3xl font-bold p-8 opacity-0 animate-fade-in"
+                className="text-shadow-lg text-center text-3xl font-extrabold p-8 opacity-0 animate-fade-in"
                 style={{ animationDelay: "1.5s" }}
               >
                 당신은 비밀 송년회에 초대되었습니다.
