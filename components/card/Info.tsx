@@ -41,7 +41,7 @@ export default function Info() {
                     text-base leading-relaxed"
       >
         <Image src="/images/calendar.png" alt="달력" width={22} height={22} />
-        12월 18일 목요일 오후 10시
+        12월 18일 목요일 오후 8시
       </p>
 
       <div className="pt-2">
